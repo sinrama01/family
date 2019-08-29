@@ -1,0 +1,160 @@
+/*Table of Contents
+ ________________________
+
+
+ ________________________*/
+
+ @import url('https://fonts.googleapis.com/css?family=Rancho&display=swap');
+
+
+ body{
+     background-color: #948172;
+ }
+
+ #head{
+    position: relative;
+     background-color: #372d2c;
+     height: 730px;
+    
+ }
+
+ ul.nav{
+    position:fixed; 
+    width: 600px;
+     padding:20px;
+     height: 30px;
+     width: 100%;
+     background-color: #372d2c;
+     z-index: 100;
+     
+
+ }
+
+ ul.nav li{
+     display: inline;
+
+}
+
+ul.nav li a{
+     font-size: 21pt;
+     margin: 5px;
+     color: #d0c0a6;
+     text-decoration: none;
+     font-family: 'Rancho', cursive;
+    
+}
+
+#back{
+    float: left;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+#back img{
+    width: 300px;
+
+}
+
+
+#back2{
+    float:right;
+    width: 800px;
+    margin-top: 33px;
+}
+
+#back2 img{
+    width: 750px;
+    
+
+}
+
+#guide{
+    position: relative;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+
+
+}
+
+#guide h3{
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+    z-index: 10;
+}
+
+#guide p{
+    width: 900px;
+    margin: 0px auto 0px auto;
+    font-family: 'Rancho', cursive;
+    font-size: 25px;
+    line-height: 40px;
+    word-spacing: 1.5px;
+    text-align: left;
+   
+    padding: 20px;
+    
+}
+
+
+#Character{
+    width: 960px;
+     position: relative;
+     overflow: auto;
+     margin: 0px auto 0px auto;
+    }
+    
+    
+    #Character h2{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 40px;
+        font-family: 'Rancho', cursive;
+        
+    }
+
+    #Character .people{
+        width: 250px;
+        float: left;
+        margin:35px;
+        margin-top: 30px;
+        }
+        
+        #Character .people img{
+        width: 250px;
+        overflow: hidden;
+        }
+        
+        #Character .people h3{
+        margin-top: 10px;
+        font-family: 'Rancho', cursive;
+        }
+        
+        #Character .people p{
+        margin-top: 10px;
+        line-height: 30px;
+        font-family: 'Rancho', cursive;
+        }
+
+
+
+        /* Footer */
+
+        #footer{
+            height: 100px;
+            width:100%;
+            background-color: #372d2c;
+            position: relative;
+            overflow: auto;
+            text-align:center;
+        }
+
+        #footer img{
+            width: 50px;
+            overflow: hidden;
+            margin: 7px;
+            cursor: pointer;
+            
+        }
